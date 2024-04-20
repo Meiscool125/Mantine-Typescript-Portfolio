@@ -1,0 +1,77 @@
+.heroContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border: 3px solid black;
+    box-shadow: 5px 5px 3px rgb(15, 15, 15);
+    border-radius: 20px;
+    flex-direction: column; 
+}
+
+.geoImg{
+    padding-bottom: 17px;
+    border-radius: 30px;
+    height: 250px;
+    width: 350px;
+}
+
+.geoImgContainer{
+    position: absolute;
+    top: 91px;
+}
+
+.mainText h2{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;     
+    margin-top: 10px;
+    color: rgba(235, 222, 222, 0.767);
+    font-family: Nunito;
+    font-weight: 200;
+    font-size: 35px;
+    text-shadow: 2px 2px 4px black;
+}
+.mainTextContainer1{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.mainTextContainer2{
+    position: absolute;
+    top: 35px;
+    right: 10px;
+}
+
+.mainTextContainer3{
+    position: absolute;
+    top: 70px;
+    right: 10px;
+}
+
+.navLinks{
+    position: absolute;
+    right: 20px;
+    top: 130px;
+}
+
+.navLinks a{
+    display: flex;
+    justify-content: right;   
+    color: rgba(235, 222, 222, 0.767);
+    font-family: Nunito;
+    font-weight: 200;
+    font-size: 35px;
+    text-shadow: 2px 2px 4px black;
+}
+
+.navLinks a:hover{
+    color: rgba(235, 222, 222, 0.479);
+}
