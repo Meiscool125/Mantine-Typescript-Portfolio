@@ -13,9 +13,9 @@ const Hero = () => {
             <div className ="mainTextContainer3"><h2>I use coding to make fun projects.</h2></div>
           </div>
           <div className='navLinks'>
-            <a href="https://github.com/Meiscool125">My Github</a>
+            <a href="https://github.com/Meiscool125" target="_blank">My Github</a>
             <a href="#about" onClick={()=>setActiveNav("#about")}>About Me</a>
-            <a href="">Projects</a>
+            <a href="#projects">Projects</a>
           </div>
       </div>
     );

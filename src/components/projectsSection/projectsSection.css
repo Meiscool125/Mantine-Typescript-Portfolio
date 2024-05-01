@@ -1,0 +1,17 @@
+.TitleText h1{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;     
+    margin-top: 10px;
+    color: rgba(235, 222, 222, 0.767);
+    font-family: Nunito;
+    font-weight: 200;
+    font-size: 60px;
+    text-shadow: 4px 4px 6px black;
+}
+
+.MainText1{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}

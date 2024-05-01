@@ -37,7 +37,3 @@ const AboutMe = () => {
     );
   };
   export default AboutMe;
-
-  // make a grid, 2x2?
-  // top left and bottom right img, others are text
-  // idk i have no idea how js works help me

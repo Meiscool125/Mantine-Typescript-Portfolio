@@ -22,3 +22,10 @@
   font-size: var(--mantine-font-size-xs);
   font-weight: 700;
 }
+
+.badgeContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px; /* Adjust the gap as needed */
+}
