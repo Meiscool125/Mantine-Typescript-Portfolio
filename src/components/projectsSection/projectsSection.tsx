@@ -52,13 +52,15 @@ export function ProjectsGrid() {
     </Grid.Col>
   ))
   return (
-    <>
-    <Text>MY TEXT</Text>
-    <Container my="md">
-      <Grid>
-        {projectGridList}
-      </Grid>
-    </Container>
-    </>
+    <div style={{ paddingTop: '20px', textShadow: '4px 4px 6px black' }}>
+      <Text ta="center" size="60px" c="rgba(235, 222, 222, 0.767)">Projects</Text>
+      <div style={{ paddingTop: '20px' }}>
+        <Container my="md">
+          <Grid>
+            {projectGridList}
+          </Grid>
+        </Container>
+      </div>
+    </div>
   );
 }

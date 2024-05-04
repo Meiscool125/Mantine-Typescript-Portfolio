@@ -15,25 +15,12 @@
     flex-direction: column; 
 }
 
-.geoImg{
-    padding-bottom: 17px;
-    border-radius: 30px;
-    height: 250px;
-    width: 350px;
-}
-
-.geoImgContainer{
-    position: absolute;
-    top: 91px;
-}
-
 .mainText h2{
     display: flex;
     justify-content: center;
     margin-left: 10px;     
     margin-top: 10px;
     color: rgba(235, 222, 222, 0.767);
-    font-family: Nunito;
     font-weight: 200;
     font-size: 35px;
     text-shadow: 2px 2px 4px black;
@@ -66,7 +53,6 @@
     display: flex;
     justify-content: right;   
     color: rgba(235, 222, 222, 0.767);
-    font-family: Nunito;
     font-weight: 200;
     font-size: 35px;
     text-shadow: 2px 2px 4px black;

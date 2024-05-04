@@ -63,7 +63,7 @@ export function BadgeCard({ project }: badgeCardProps) {
 
       <Group mt="xs">
         <Button radius="md" style={{ flex: 1 }}>
-          Show details
+          Go to project
         </Button>
       </Group>
     </Card>

@@ -8,9 +8,7 @@ const AboutMe = () => {
     return (
       <section id='about'>
       <div>
-      <div className="TitleText">
-      <div className="AboutMe"><h1>About Me</h1></div>
-    </div>
+      <div className="AboutMe">About Me</div>
       <div className='aboutMe-container'>
         <div className="codePicAboutMe">
           <img src={codeImg}

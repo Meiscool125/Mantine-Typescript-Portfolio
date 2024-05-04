@@ -25,8 +25,7 @@
     margin-left: 10px;     
     margin-top: 10px;
     color: rgba(235, 222, 222, 0.767);
-    font-family: Nunito;
-    font-weight: 200;
+    font-weight: 350;
     font-size: 35px;
     text-shadow: 2px 2px 4px black;
 }
@@ -35,21 +34,15 @@
     margin-top: 300px;
 }
 
-.TitleText h1{
-    display: flex;
-    justify-content: center;
-    margin-left: 10px;     
-    margin-top: 10px;
-    color: rgba(235, 222, 222, 0.767);
-    font-family: Nunito;
-    font-weight: 200;
-    font-size: 60px;
-    text-shadow: 4px 4px 6px black;
-}
 
 .AboutMe{
     display:flex;
     justify-content: center;
+    margin-left: 10px;     
+    margin-top: 10px;
+    color: rgba(235, 222, 222, 0.767);
+    font-size: 60px;
+    text-shadow: 4px 4px 6px black;
 }
 
 .MainText1{
@@ -64,19 +57,22 @@
 }
 
 .MainText3{
+    padding-top: 10px;
     position: absolute;
-    bottom: 160px;
+    bottom: 150px;
     left: 10px;
 }
 
 .MainText4{
+    padding-top: 10px;
     position: absolute;
-    bottom: 130px;
+    bottom: 115px;
     left: 10px;
 }
 
 .MainText5{
+    padding-top: 10px;
     position: absolute;
-    bottom: 80px;
+    bottom: 50px;
     left: 10px;
 }
