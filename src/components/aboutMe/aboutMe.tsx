@@ -3,6 +3,7 @@ import React from 'react';
 import './aboutMe.css'; // Import the CSS file
 import gamingImg from '../../assets/gaming-picture.png'
 import codeImg from '../../assets/code-picture.png'
+import { Image } from '@mantine/core';
 
 const AboutMe = () => {
     return (
@@ -12,13 +13,14 @@ const AboutMe = () => {
       <div className='aboutMe-container'>
         <div className="codePicAboutMe">
           <img src={codeImg}
-          height="250"
+          height={200}
           ></img>
         </div>
         <div className="gamingPicAboutMe">
-          <img src={gamingImg}
-          height="250"
-          ></img>
+          <Image src={gamingImg}
+          h={200}
+          w="auto"
+          />
         </div>
 
         <div className="MainText">

@@ -1,22 +1,17 @@
 .aboutMe-container{
     width: 1000px;
     height: 500px;
-    position: relative;
-    position: relative;
     margin: 20px auto;
     
 }
 
 .codePicAboutMe{
-    position:absolute;
     float: left;
-    border-radius: 80%;
 }
 
 .gamingPicAboutMe{
-    position:absolute;
-    bottom: 0;
-    right: 0;
+    padding-top: 250px;
+    float:right;
 }
 
 .MainText h2{

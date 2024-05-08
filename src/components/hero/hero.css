@@ -1,57 +1,51 @@
 .heroContainer {
-    position: relative;
-    display: flex;
     justify-content: center;
     height: 300px;
-    width: 90%;
-    max-width: 600px;
-    margin: 20px auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
     padding-right: 20px;
-    border: 3px solid black;
-    box-shadow: 5px 5px 3px rgb(15, 15, 15);
-    border-radius: 20px;
-    flex-direction: column; 
+    margin-bottom: 100px;
 }
 
 .mainText h2{
     display: flex;
     justify-content: center;
     margin-left: 10px;     
-    margin-top: 10px;
     color: rgba(235, 222, 222, 0.767);
     font-weight: 200;
     font-size: 35px;
     text-shadow: 2px 2px 4px black;
 }
+
 .mainTextContainer1{
+    display: flex;
+    margin-left: 300px;     
+    font-weight: 200;
+    text-shadow: 2px 2px 4px black;
     position: absolute;
-    top: 5px;
-    right: 10px;
+    font-size: 50px;
+    top: -50px;
 }
 
 .mainTextContainer2{
-    position: absolute;
-    top: 35px;
-    right: 10px;
+    padding: 100px;
+    top: 120px;
+    left: 10px;
 }
 
 .mainTextContainer3{
-    position: absolute;
-    top: 70px;
-    right: 10px;
+    padding: 0px;
+    top: 150px;
+    left: 10px;
 }
 
 .navLinks{
-    position: absolute;
-    right: 20px;
-    top: 130px;
+    padding: 10px;
+    top: 300px;
+    left: 20px;
 }
 
 .navLinks a{
     display: flex;
-    justify-content: right;   
+    justify-content: left;   
     color: rgba(235, 222, 222, 0.767);
     font-weight: 200;
     font-size: 35px;
