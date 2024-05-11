@@ -3,13 +3,13 @@ import React from 'react';
 import './aboutMe.css'; // Import the CSS file
 import gamingImg from '../../assets/gaming-picture.png'
 import codeImg from '../../assets/code-picture.png'
-import { Image } from '@mantine/core';
+import { Image, Text } from '@mantine/core';
 
 const AboutMe = () => {
     return (
       <section id='about'>
       <div>
-      <div className="AboutMe">About Me</div>
+      <Text>About Me</Text> 
       <div className='aboutMe-container'>
         <div className="codePicAboutMe">
           <img src={codeImg}
@@ -23,13 +23,13 @@ const AboutMe = () => {
           />
         </div>
 
-        <div className="MainText">
+        <div>
           
-          <div className="MainText1"><h2>I'm Dathan, a coder who likes to make</h2></div>
-          <div className="MainText2"><h2>fun and useful applications with code.</h2></div>
-          <div className="MainText3"><h2>I make projects like video games</h2></div>
-          <div className="MainText4"><h2>and functional apps.</h2></div>
-          <div className="MainText5"><h2>Check them out down below!</h2></div>
+          <Text fz={"xl"} >I'm Dathan, a coder who likes to make</Text> 
+          <Text>fun and useful applications.</Text> 
+          <Text>I make projects like video games</Text> 
+          <Text>and functional apps.</Text> 
+          <Text>Check them out down below!</Text> 
         </div>
       </div>
       </div>

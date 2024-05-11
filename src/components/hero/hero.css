@@ -55,3 +55,11 @@
 .navLinks a:hover{
     color: rgba(235, 222, 222, 0.479);
 }
+
+a{
+    color: rgba(235, 222, 222, 0.767);
+}
+
+a:hover{
+    color: rgba(235, 222, 222, 0.479);
+}
