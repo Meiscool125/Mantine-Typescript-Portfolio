@@ -696,6 +696,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mantinex/dev-icons@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "@mantinex/dev-icons@npm:1.0.2"
+  peerDependencies:
+    "@mantine/core": ">=7.0.0"
+    "@mantine/hooks": ">=7.0.0"
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: 10c0/21c69b832e6215ca79a9ada4bc21558fe197cefb65604c4bbc54bf775c81696ec62a44978d3c5062b78a31f7ceafa1d3f18413aac4d6a12deb761b896c6e88fa
+  languageName: node
+  linkType: hard
+
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -3391,6 +3403,7 @@ __metadata:
   dependencies:
     "@mantine/core": "npm:^7.8.0"
     "@mantine/hooks": "npm:^7.8.0"
+    "@mantinex/dev-icons": "npm:^1.0.2"
     "@tabler/icons-react": "npm:^3.2.0"
     "@types/react": "npm:^18.2.65"
     "@types/react-dom": "npm:^18.2.21"
