@@ -28,6 +28,7 @@
 import { Container, Text, Button, Group } from '@mantine/core';
 import { GithubIcon } from '@mantinex/dev-icons';
 import classes from './HeroTitle.module.css';
+import { Link } from 'react-scroll';
 
 export function Hero() {
     return (
@@ -35,7 +36,7 @@ export function Hero() {
         <Container mx={0} px={10} size={700} className={classes.inner}>
         <h1 className={classes.title}>
             <Text ta="left"component="span" variant="gradient" gradient={{ from: 'yellow', to: 'pink' }} inherit>
-            Hey, I'm Dathan https://ui.mantine.dev/category/headers/
+            Hey, I'm Dathan
             </Text>{' '}
         </h1>
 
@@ -44,7 +45,6 @@ export function Hero() {
         </Text>
 
         <Group className={classes.controls}>
-
             <Button
             component="a"
             href="https://github.com/mantinedev/mantine"
@@ -56,22 +56,24 @@ export function Hero() {
             >
             GitHub
             </Button>
-
-            <Button
-            size="xl"
-            variant='default'
-            className={classes.control}
-            >
-            About Me
-            </Button>
-
-            <Button
-            size="xl"
-            variant='default'
-            className={classes.control}
-            >
-            Projects
-            </Button>
+            <Link to="about" smooth={true} duration={500}>
+                <Button
+                size="xl"
+                variant='default'
+                className={classes.control}
+                >
+                About Me
+                </Button>
+            </Link>
+            <Link to="projects" smooth={true} duration={500}>
+                <Button
+                size="xl"
+                variant='default'
+                className={classes.control}
+                >
+                Projects
+                </Button>
+            </Link>
         </Group>
         </Container>
     </div>

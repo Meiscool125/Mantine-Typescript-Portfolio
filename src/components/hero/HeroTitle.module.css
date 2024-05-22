@@ -5,19 +5,19 @@
     margin-bottom: 100px;
 }
 
-.mainText h2{
+.mainText h2 {
     display: flex;
     justify-content: center;
-    margin-left: 10px;     
+    margin-left: 10px;
     color: rgba(235, 222, 222, 0.767);
     font-weight: 200;
     font-size: 35px;
     text-shadow: 2px 2px 4px black;
 }
 
-.mainTextContainer1{
+.mainTextContainer1 {
     display: flex;
-    margin-left: 300px;     
+    margin-left: 300px;
     font-weight: 200;
     text-shadow: 2px 2px 4px black;
     position: absolute;
@@ -25,42 +25,42 @@
     top: -50px;
 }
 
-.mainTextContainer2{
+.mainTextContainer2 {
     padding: 100px;
     top: 120px;
     left: 10px;
 }
 
-.mainTextContainer3{
+.mainTextContainer3 {
     padding: 0px;
     top: 150px;
     left: 10px;
 }
 
-.navLinks{
+.navLinks {
     padding: 10px;
     top: 300px;
     left: 20px;
 }
 
-.navLinks a{
+.navLinks a {
     display: flex;
-    justify-content: left;   
+    justify-content: left;
     color: rgba(235, 222, 222, 0.767);
     font-weight: 200;
     font-size: 35px;
     text-shadow: 2px 2px 4px black;
 }
 
-.navLinks a:hover{
+.navLinks a:hover {
     color: rgba(235, 222, 222, 0.479);
 }
 
-a{
+a {
     color: rgba(235, 222, 222, 0.767);
 }
 
-a:hover{
+a:hover {
     color: rgba(235, 222, 222, 0.479);
 }
 
@@ -71,21 +71,21 @@ a:hover{
 .wrapper {
     position: relative;
     box-sizing: border-box;
-    background-color: light-dark(var(rgb(40,36,36)), var(rgb(40,36,36)));
-    }
-    
-    .inner {
+    background-color: light-dark(var(rgb(40, 36, 36)), var(rgb(40, 36, 36)));
+}
+
+.inner {
     position: relative;
     padding-top: rem(60px);
     padding-bottom: rem(120px);
-        
+
     @media (max-width: --mantine-breakpoint-sm) {
         padding-bottom: rem(80px);
         padding-top: rem(80px);
     }
-    }
-    
-    .title {
+}
+
+.title {
     font-family:
         Greycliff CF,
         var(--mantine-font-family);
@@ -93,43 +93,49 @@ a:hover{
     font-weight: 900;
     line-height: 0.4;
     color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
-        
+
     @media (max-width: --mantine-breakpoint-sm) {
         font-size: rem(42px);
         line-height: 1.2;
     }
-    }
-    
-    .description {
+}
+
+.description {
     margin-top: var(--mantine-spacing-xl);
     font-size: rem(24px);
-        
+
     @media (max-width: --mantine-breakpoint-sm) {
         font-size: rem(18px);
     }
-    }
-    
-    .controls {
+}
+
+.controls {
     margin-top: calc(var(--mantine-spacing-md) * 2);
-        
+
     @media (max-width: --mantine-breakpoint-sm) {
         margin-top: var(--mantine-spacing-xl);
     }
+
     flex-direction: column;
     align-content: start;
 
-    } 
-    
-    .control {
+}
+
+.control {
     height: rem(54px);
     padding-left: rem(38px);
     padding-right: rem(38px);
-    
+
     width: 175px;
+
     @media (max-width: --mantine-breakpoint-sm) {
         height: rem(54px);
         padding-left: rem(18px);
         padding-right: rem(18px);
         flex: 1;
     }
-    }
+}
+
+html {
+    scroll-behavior: smooth;
+}

@@ -687,12 +687,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mantine/hooks@npm:^7.8.0":
-  version: 7.8.0
-  resolution: "@mantine/hooks@npm:7.8.0"
+"@mantine/hooks@npm:^7.9.2":
+  version: 7.9.2
+  resolution: "@mantine/hooks@npm:7.9.2"
   peerDependencies:
     react: ^18.2.0
-  checksum: 10c0/cfaa48ddd95ba36e87032326d4b00e9b5f69c3494f20cb96d1abee19730d4c9ed5910be1b75cc2a03cc54a589b2dd22c6b519fbcad7d3848638297166915fddd
+  checksum: 10c0/e84e3ca8513c93f2759be7afec01d2e03295ddc665922d8c0972e6b39257e5d49815dfd0eab577e167534c599c8703ce3668c430fe94aed36f2f85474484d29d
   languageName: node
   linkType: hard
 
@@ -705,6 +705,18 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
   checksum: 10c0/21c69b832e6215ca79a9ada4bc21558fe197cefb65604c4bbc54bf775c81696ec62a44978d3c5062b78a31f7ceafa1d3f18413aac4d6a12deb761b896c6e88fa
+  languageName: node
+  linkType: hard
+
+"@mantinex/mantine-logo@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@mantinex/mantine-logo@npm:1.0.1"
+  peerDependencies:
+    "@mantine/core": ">=7.0.0"
+    "@mantine/hooks": ">=7.0.0"
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: 10c0/d1628195eaf6681c4366c0154ee2e3adf1b863432ab15e6285a3f33ffbb33a17ec0b5a90a9ced2429cbf2841d4de11f72320ca3d37578d6908a5b9f194fea2d3
   languageName: node
   linkType: hard
 
@@ -934,6 +946,15 @@ __metadata:
   dependencies:
     "@types/react": "npm:*"
   checksum: 10c0/a887b4b647071df48173f054854713b68fdacfceeba7fa14f64ba26688d7d43574d7dc88a2a346e28f2e667eeab1b9bdbcad8a54353869835e52638607f61ff5
+  languageName: node
+  linkType: hard
+
+"@types/react-scroll@npm:^1":
+  version: 1.8.10
+  resolution: "@types/react-scroll@npm:1.8.10"
+  dependencies:
+    "@types/react": "npm:*"
+  checksum: 10c0/fd488a2446f3654c7594fa664a3592661d2685608717f80e32d3749f496974d20876bcb127522a69b8249c2f513895a84b89bf6eeb95442fc6f5e7023f6baaff
   languageName: node
   linkType: hard
 
@@ -2269,6 +2290,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash.throttle@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "lodash.throttle@npm:4.1.1"
+  checksum: 10c0/14628013e9e7f65ac904fc82fd8ecb0e55a9c4c2416434b1dd9cf64ae70a8937f0b15376a39a68248530adc64887ed0fe2b75204b2c9ec3eea1cb2d66ddd125d
+  languageName: node
+  linkType: hard
+
 "loose-envify@npm:^1.0.0, loose-envify@npm:^1.1.0, loose-envify@npm:^1.4.0":
   version: 1.4.0
   resolution: "loose-envify@npm:1.4.0"
@@ -2849,6 +2877,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-scroll@npm:^1.9.0":
+  version: 1.9.0
+  resolution: "react-scroll@npm:1.9.0"
+  dependencies:
+    lodash.throttle: "npm:^4.1.1"
+    prop-types: "npm:^15.7.2"
+  peerDependencies:
+    react: ^15.5.4 || ^16.0.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^15.5.4 || ^16.0.0 || ^17.0.0 || ^18.0.0
+  checksum: 10c0/bcaa045740351ba1373d2e3f236b1ff0d383e4e5efd43d87644c165a3c1c4988bd0361515c487688daf39c122b035c8a014fcd9184f51deb4a0d2c232ac5fb61
+  languageName: node
+  linkType: hard
+
 "react-style-singleton@npm:^2.2.1":
   version: 2.2.1
   resolution: "react-style-singleton@npm:2.2.1"
@@ -3402,11 +3443,13 @@ __metadata:
   resolution: "vite-min-template@workspace:."
   dependencies:
     "@mantine/core": "npm:^7.8.0"
-    "@mantine/hooks": "npm:^7.8.0"
+    "@mantine/hooks": "npm:^7.9.2"
     "@mantinex/dev-icons": "npm:^1.0.2"
+    "@mantinex/mantine-logo": "npm:^1.0.1"
     "@tabler/icons-react": "npm:^3.2.0"
     "@types/react": "npm:^18.2.65"
     "@types/react-dom": "npm:^18.2.21"
+    "@types/react-scroll": "npm:^1"
     "@typescript-eslint/eslint-plugin": "npm:^7.2.0"
     "@typescript-eslint/parser": "npm:^7.2.0"
     "@vitejs/plugin-react": "npm:^4.2.1"
@@ -3418,6 +3461,7 @@ __metadata:
     postcss-simple-vars: "npm:^7.0.1"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
+    react-scroll: "npm:^1.9.0"
     typescript: "npm:^5.4.2"
     vite: "npm:^5.1.6"
   languageName: unknown
