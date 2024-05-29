@@ -47,7 +47,7 @@ export function Hero() {
         <Group className={classes.controls}>
             <Button
             component="a"
-            href="https://github.com/mantinedev/mantine"
+            href="https://github.com/Meiscool125"
             size="xl"
             className={classes.control}
             leftSection={<GithubIcon size={20} />}

@@ -1,8 +1,17 @@
 .header {
+    position: sticky;
     height: rem(56px);
     margin-bottom: rem(120px);
     background-color: var(--mantine-color-body);
     border-bottom: rem(1px) solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
+    transition: transform 0.3s ease, top 0.3s ease;
+    /* Ensure the header stays on top of other content */
+}
+
+.header .fixed {
+    top: 0;
+    position: fixed;
+    z-index: 100;
 }
 
 .inner {
@@ -30,4 +39,14 @@
         background-color: var(--mantine-color-blue-filled);
         color: var(--mantine-color-white);
     }
+}
+
+.visible {
+    transform: translateY(0);
+}
+
+.hidden {
+    transform: translateY(-100%);
+    top: -56px;
+    /* Match the height of the header to move it completely out of view */
 }
