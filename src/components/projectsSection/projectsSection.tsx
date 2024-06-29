@@ -47,7 +47,7 @@ const projects:project[] = [
 
 export function ProjectsGrid() {
   const projectGridList = projects.map((project)=>(
-    <Grid.Col span={{ base: 12, xs: 6 }} key={project.id}>
+    <Grid.Col span={{ xl: 14, lg:6, md: 6, sm: 6, xs: 6 }} key={project.id}>
       <BadgeCard project={project} />
     </Grid.Col>
   ))
