@@ -18,6 +18,7 @@ export interface project{
   title: string;
   description: string;
   badges: badge[];
+  link: string;
 }
 
 const projects:project[] = [
@@ -27,9 +28,10 @@ const projects:project[] = [
     title: 'TripSM',
     description: 'Allows users to easily manage their Satisfactory save files.',
     badges: [{ icon: <IconBrandPython size={22}/>, language: 'Python' },
-             { icon: <IconFileInfo size={22}/>, language: 'Tkinter' },
-             { icon: <IconBrandGithub size={22}/>, language: 'Github' }
-            ]
+            { icon: <IconFileInfo size={22}/>, language: 'Tkinter' },
+            { icon: <IconBrandGithub size={22}/>, language: 'Github' }
+            ],
+    link: 'https://github.com/Meiscool125/TripSM',
   },
   {
     id: "Portfolio Website",
@@ -37,12 +39,13 @@ const projects:project[] = [
     title: 'Portfolio Website',
     description: 'The place you are right now!',
     badges: [{ icon: <IconBrandTypescript size={22}/>, language: 'TypeScript' },
-             { icon: <IconBrandHtml5 size={22}/>, language: 'HTML' },
-             { icon: <IconBrandCss3 size={22}/>, language: 'CSS' },
-             { icon: <IconBrandGithub size={22}/>, language: 'Github' }
-            ]
+            { icon: <IconBrandHtml5 size={22}/>, language: 'HTML' },
+            { icon: <IconBrandCss3 size={22}/>, language: 'CSS' },
+            { icon: <IconBrandGithub size={22}/>, language: 'Github' }
+            ],
+    link: 'https://github.com/Meiscool125/Mantine-Typescript-Portfolio',
   }
-
+  
 ]
 
 export function ProjectsGrid() {

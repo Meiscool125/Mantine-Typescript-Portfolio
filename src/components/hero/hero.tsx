@@ -53,6 +53,7 @@ export function Hero() {
             leftSection={<GithubIcon size={20} />}
             variant="gradient"
             gradient={{ from: 'blue', to: 'rgba(0, 183, 255, 1)' }}
+            target="_blank"
             >
             GitHub
             </Button>

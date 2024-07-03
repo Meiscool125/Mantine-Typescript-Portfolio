@@ -1,8 +1,4 @@
-.aboutMe-container {
-    width: 1000px;
-    height: 500px;
-    margin: 20px auto;
-}
+.aboutMe-container {}
 
 .AboutMe {
     display: flex;

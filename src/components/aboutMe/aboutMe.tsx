@@ -5,19 +5,16 @@ import { Text, Center } from '@mantine/core';
 const AboutMe = () => {
     return (
       <section id='about'>
-      <div className='aboutMe-container'>
-        <Center maw={400} h={40}>
-          <Text fz={40}>About Me</Text>
-        </Center> 
-          <div>
-            <div className="Text">
-              <Text fz={25} >I'm Dathan, a coder who likes to make</Text> 
-              <Text>fun and useful applications.</Text> 
-              <Text>I make projects like video games</Text> 
-              <Text>and functional apps.</Text> 
-              <Text>Check them out down below!</Text> 
+      <div className='aboutMe-container' style={{ textShadow: '4px 4px 6px black' }}>
+      <Center maw={1920} mah={1080} pt={"md"} pb={"xl"}>
+          <Text pr={"30px"} pl={"40px"} fz={40}>About Me</Text>
+            <div className="Text" style={{ borderLeft: '4px solid gray', paddingRight: '15px', paddingTop: '5px', paddingBottom: '5px', borderRadius: '30px' }}>
+              <Text fz={23} pl={'25px'}>I'm Dathan, a coder who likes to make fun and useful applications.</Text> 
+              <Text fz={23} pl={'25px'}></Text> 
+              <Text fz={23} pl={'25px'}>I make projects like video games and functional apps.</Text> 
+              <Text fz={23} pl={'25px'}>Check them out down below!</Text> 
             </div>
-          </div>
+      </Center> 
       </div>
       </section>
     );

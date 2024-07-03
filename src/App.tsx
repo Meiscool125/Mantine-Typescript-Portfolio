@@ -6,7 +6,8 @@ import { ColorSchemeToggle } from "./components/ColorSchemeToggle/ColorSchemeTog
 import AboutMe from "./components/aboutMe/aboutMe.tsx";
 import { Hero } from "./components/hero/hero.tsx";
 import { ProjectsGrid } from "./components/projectsSection/projectsSection.tsx";
-import { HeaderSimple } from "./components/headerSimple/HeaderSimple.tsx"
+import { HeaderSimple } from "./components/headerSimple/HeaderSimple.tsx";
+import { UserInfoIcons } from "./components/userInfoIcon/UserInfoIcons.tsx";
 //import { WheelComponent } from "./main.tsx"
 export default function App() {
   const [offset, setOffset] = useState(0);
@@ -23,9 +24,9 @@ export default function App() {
   <MantineProvider defaultColorScheme="dark" theme={{ fontFamily: "Roboto" }}>
     <HeaderSimple/>
     <Hero/>
+    <UserInfoIcons/>
     <AboutMe/>
     <ProjectsGrid/>
-    
     <ColorSchemeToggle />
   </MantineProvider>
   );
