@@ -24,7 +24,7 @@
 .link {
     display: block;
     line-height: 1;
-    padding: rem(8px) rem(12px);
+    padding: rem(8px) rem(9px);
     border-radius: var(--mantine-radius-sm);
     text-decoration: none;
     color: light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-0));
@@ -35,8 +35,7 @@
         background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
     }
 
-    [data-mantine-color-scheme] &[data-active] {
-        background-color: var(--mantine-color-blue-filled);
+    [data-mantine-color-scheme] {
         color: var(--mantine-color-white);
     }
 }

@@ -4,11 +4,10 @@ export function ColorSchemeToggle() {
   const { setColorScheme } = useMantineColorScheme();
 
   return (
-    <Group justify="center" my={rem(200)}>
-      <Button onClick={() => setColorScheme('light')}>Light</Button>
-      <Button onClick={() => setColorScheme('dark')}>Dark</Button>
-      <Button onClick={() => setColorScheme('auto')}>Auto</Button>
+    <Group justify="center" my={rem(80)}>
+      <Button onClick={() => setColorScheme('light')}>Light mode (website not designed for light mode)</Button>
+      <Button onClick={() => setColorScheme('dark')}>Dark mode</Button>
+      <Button onClick={() => setColorScheme('auto')}>Auto mode</Button>
     </Group>
   );
 }
-

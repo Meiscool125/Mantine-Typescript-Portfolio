@@ -1,13 +1,13 @@
 // Navbar.js
 import './aboutMe.css'; // Import the CSS file
-import { Text, Center } from '@mantine/core';
+import { Text, Center, rem } from '@mantine/core';
 
 const AboutMe = () => {
     return (
       <section id='about'>
-      <div className='aboutMe-container' style={{ textShadow: '4px 4px 6px black' }}>
+      <div className='gradientClass' style={{ textShadow: '3px 3px 60px grey' }} >
       <Center maw={1920} mah={1080} pt={"md"} pb={"xl"}>
-          <Text pr={"30px"} pl={"40px"} fz={40}>About Me</Text>
+          <Text pr={"30px"} pl={"40px"} fz={40} fw={700}>About Me</Text>
             <div className="Text" style={{ borderLeft: '4px solid gray', paddingRight: '15px', paddingTop: '5px', paddingBottom: '5px', borderRadius: '30px' }}>
               <Text fz={23} pl={'25px'}>I'm Dathan, a coder who likes to make fun and useful applications.</Text> 
               <Text fz={23} pl={'25px'}></Text> 

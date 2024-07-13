@@ -3,6 +3,7 @@ import { Container, Group, Burger } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import { MantineLogo } from "@mantinex/mantine-logo";
 import classes from "./HeaderSimple.module.css";
+import { ActionToggle } from "../toggleColorSwitch/ActionToggle";
 
 const links = [
   { link: "#about", label: "About Me" },
@@ -36,7 +37,8 @@ export function HeaderSimple() {
   return (
     <header className={classes.header}>
       <Container size="md" className={classes.inner}>
-        <MantineLogo size={28} />
+        <MantineLogo size={25} />
+        <ActionToggle />
         <Group gap={5} visibleFrom="xs">
           {items}
         </Group>

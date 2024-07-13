@@ -1,6 +1,6 @@
 import "@mantine/core/styles.css";
 import React, { useEffect, useState } from "react";
-import { MantineProvider } from "@mantine/core";
+import { MantineProvider, Text } from "@mantine/core";
 import { theme } from "./theme";
 import { ColorSchemeToggle } from "./components/ColorSchemeToggle/ColorSchemeToggle.tsx";
 import AboutMe from "./components/aboutMe/aboutMe.tsx";
@@ -22,6 +22,7 @@ export default function App() {
 
   return (
   <MantineProvider defaultColorScheme="dark" theme={{ fontFamily: "Roboto" }}>
+    <Text pl={10} pt={10} pb={50}>Please view this webpage in a resolution of approximately 700x700 (about half the width of your monitor).</Text>
     <HeaderSimple/>
     <Hero/>
     <UserInfoIcons/>

@@ -1,5 +1,3 @@
-.aboutMe-container {}
-
 .AboutMe {
     display: flex;
     justify-content: center;
@@ -7,9 +5,15 @@
     margin-top: 10px;
     color: rgba(235, 222, 222, 0.767);
     font-size: 60px;
-    text-shadow: 4px 4px 6px black;
+    /* text-shadow: 4px 4px 6px black; */
 }
 
 .Text {
     padding-left: 10px;
+}
+
+.gradientClass {
+    background: linear-gradient(to right, orange, purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
